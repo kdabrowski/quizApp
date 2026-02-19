@@ -1,5 +1,12 @@
+<script setup>
+import QuizHeader from '@/components/QuizHeader.vue';
+import Question from '../components/question.vue'
+</script>
 <template>
   <div>
-    <h1>Quiz View</h1>
+    <QuizHeader />
+    <div>
+      <Question />
+    </div>
   </div>
 </template>
